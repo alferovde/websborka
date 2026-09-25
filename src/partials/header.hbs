@@ -1,1 +1,25 @@
-<header class={{myClass}}>header elemen</header>
+<header class='header_container '>
+
+  <div class="header_wrapper container">
+    <div class="logo">Rivo</div>
+    <nav class="header_nav">
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">shop</a></li>
+        <li><a href="#">feature</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+    <div class="btn_group">
+      <a href class="bag">
+        <img src="../../public/images/bag.png" alt="user_bag">
+        <div class="color_status" style="background-color: #10FF70;">
+          {{!-- для WP программируемый элемент --}}
+        </div>
+      </a>
+      <a href class="login_btn">login</a>
+    </div>
+    {{>mobile-menu}}
+  </div>
+
+</header>

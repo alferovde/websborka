@@ -1,0 +1,187 @@
+.her_wrapper {
+    display: flex;
+    padding-bottom: 170px;
+    justify-content: space-between;
+    column-gap: 35px;
+}
+
+
+
+.hero {
+
+    max-width: 649;
+    background-color: $main;
+    padding: 70px 0 0 0;
+
+    h1 {
+        font-size: clamp(16px, 4.45vw, 86px);
+        font-weight: 500;
+        width: 649px;
+        line-height: 120%;
+        color: $second;
+    }
+
+    p {
+        max-width: 565px;
+        line-height: 220%;
+        font-size: clamp(16px, 1.25vw, 24px);
+        margin: 27px 0 54px 0;
+    }
+
+    button {
+        width: 258px;
+        height: 74px;
+        background-color: $second;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+        transition: .2s;
+        box-shadow: 2px 28px 64px 12px rgba(34, 60, 80, 0.3);
+
+        &:hover {
+            background-color: $textHeroColor;
+            color: $second;
+        }
+
+
+
+    }
+}
+
+.hero_img {
+    max-width: 570px;
+    max-height: 717px;
+    background-color: #6BC785;
+    margin-bottom: 167px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 70px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-element1 {
+        max-width: 20.9%;
+        max-height: 15.4%;
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+    }
+
+
+    .hero-element2 {
+        max-width: 20.9%;
+        max-height: 15.4%;
+        position: absolute;
+        top: 20%;
+        right: 2%;
+    }
+
+
+}
+
+.hero_img_bg{
+    display: none;
+}
+
+@media (max-width: 1320px) {
+
+    .hero_img {
+        margin-bottom: 105px;
+
+
+    }
+}
+
+
+@media (max-width: 1165px) {
+
+    .hero_img {
+        display: none;
+        img{
+            display: none;
+        }
+
+
+    }
+
+    .hero {
+
+        padding: 70px 0 70px 0;
+        // background-color: transparent;
+        position: relative;
+
+    }
+
+    .hero_img_bg{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        background-position: center top;
+        background-size: auto;
+        background-repeat: no-repeat;
+
+        opacity: .4;
+        overflow: hidden;
+
+        height: 500px;
+        width: 300px;
+      
+
+   
+  
+}
+}
+
+@media (max-width: 787px){
+.hero {
+
+ 
+
+    h1 {
+        font-size: clamp(16px, 4.45vw, 86px);
+        font-weight: 500;
+        max-width: 349px;
+        line-height: 120%;
+        color: $second;
+    }
+
+    p {
+        max-width: 265px;
+        line-height: 220%;
+        font-size: clamp(16px, 1.25vw, 24px);
+        margin: 27px 0 54px 0;
+    }
+
+    button {
+        width: 158px;
+        height: 44px;
+        background-color: $second;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        font-size: 12px;
+        color: white;
+        text-transform: uppercase;
+        transition: .2s;
+        box-shadow: 2px 28px 64px 12px rgba(34, 60, 80, 0.3);
+
+        &:hover {
+            background-color: $textHeroColor;
+            color: $second;
+        }
+
+
+
+    }
+}
+}

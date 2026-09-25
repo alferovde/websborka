@@ -1,3 +1,6 @@
 @import "./font.scss";
+@import "./header.scss";
+@import "./hero.scss";
 @import "./media.scss";
+@import "./mobile-menu.scss";
 @import "./vars.scss";

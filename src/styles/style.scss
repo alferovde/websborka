@@ -1,15 +1,79 @@
 @import 'additinal/font';
 @import 'additinal/media';
 @import 'additinal/vars.scss';
-
+@import 'additinal/header.scss';
+@import 'additinal/hero.scss';
+@import 'additinal/mobile-menu.scss';
+@import 'additinal/best_sellings.scss';
 
 
 body {
- margin: 0;
+  margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  color: $red3;
+  color: $textHeroColor;
+  font-family: 'Poppins';
+
+  min-width: 468px;
 
 }
+
+.container {
+  max-width: 1428px;
+  margin: 0 auto;
+  padding:  0 175px;
+// box-sizing: border-box;
+
+}
+
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
+}
+
+.main_container {}
+
+
+.visible{
+  display: none;
+}
+
+
+@media (max-width: 1320px) {
+  .container {
  
+  padding: 0 105px;
+
+}
+}
+
+
+
+@media (max-width: 1165px){
+    .container {
+ 
+  padding: 0 50px;
+
+}
+}
+
+
+@media (max-width: 768px) {
+ .container {
+ 
+  padding: 0 50px;
+
+}
+}
