@@ -5,6 +5,8 @@
 @import 'additinal/hero.scss';
 @import 'additinal/mobile-menu.scss';
 @import 'additinal/best_sellings.scss';
+@import 'additinal/our_products.scss';
+@import 'additinal/sales.scss';
 
 
 body {
@@ -22,8 +24,8 @@ body {
 .container {
   max-width: 1428px;
   margin: 0 auto;
-  padding:  0 175px;
-// box-sizing: border-box;
+  padding:  0 25px;
+
 
 }
 

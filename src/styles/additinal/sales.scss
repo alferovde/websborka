@@ -1,0 +1,201 @@
+.sales {}
+
+.sales__wrapper {
+    background-color: $main;
+
+    margin-bottom: 218px;
+    height: 596px;
+    display: flex;
+
+    position: relative;
+    z-index: -555;
+
+
+    button{
+width: 235px;
+height: 74px;
+margin-top: 41px;
+border: none;
+background-color: $second;
+border-radius: 4px;
+font-size: 20px;
+color: white;
+    }
+
+}
+
+.sales__img {
+    max-width: 482px;
+    padding-left: 81px;
+
+    background-image: url('../../../public/images/sales1.png');
+    background-repeat: no-repeat;
+    background-position: 10% 90%;
+
+    img {
+        z-index: 200;
+
+    }
+
+
+
+    .box {
+        width: 190px;
+        height: 131px;
+        background-color: #DFFBEA;
+        position: absolute;
+        bottom: 61px;
+        left: 98px;
+        z-index: -1;
+    }
+}
+
+.sales_info {
+    max-width: 589px;
+    height: 447px;
+    margin-left: 104px;
+   padding-right: 30px;
+
+}
+
+.sales__title {
+    padding-top: 75px;
+    color: $second;
+
+    h2 {
+        font-size: clamp(16px, 2.45vw, 46px);
+    }
+
+    p {
+        font-size: clamp(16px, 2.45vw, 22px);
+        margin-bottom: 40px;
+    }
+}
+
+.sales__time {
+    display: flex;
+
+    column-gap: 35px;
+
+    .time_element {
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+
+        span {
+            font-size: clamp(16px, 2.45vw, 36px);
+            font-weight: 600;
+        }
+    }
+}
+
+@media (max-width: 1300px){
+.sales__img {
+   
+    padding-left: 21px;
+
+   
+}
+.sales_info {
+    max-width: 589px;
+    height: 447px;
+    margin-left: 0px;
+   padding-right: 30px;
+
+}
+}
+
+@media (max-width: 999px){
+.sales__img {
+   
+    display: none;
+
+   
+}
+
+.sales_info {
+    max-width: 100%;
+    height: 447px;
+    margin-left: 0px;
+   padding: 30px;
+
+}
+
+.sales__wrapper {
+    background-color: $main;
+
+    margin-bottom: 50px;
+    height: 446px;
+    display: flex;
+
+    position: relative;
+    z-index: -555;
+
+
+
+
+}
+
+.sales__title {
+    padding-top: 25px;
+
+
+}
+}
+
+@media (max-width: 530px){
+
+    .sales_info {
+ 
+   padding: 10px;
+
+}
+
+
+    .sales__time {
+    display: flex;
+justify-content: space-between;
+    column-gap: 15px;
+
+    .time_element {
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+
+        
+    }
+}
+
+
+.sales__wrapper {
+
+    p{
+        text-align: justify;;
+    }
+ 
+text-align: center;
+
+    button{
+width: 185px;
+height: 54px;
+margin-top: 41px;
+border: none;
+background-color: $second;
+border-radius: 4px;
+font-size: 16px;
+color: white;
+
+    }
+
+}
+}

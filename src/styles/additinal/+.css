@@ -1,6 +1,9 @@
+@import "./best_sellings.scss";
 @import "./font.scss";
 @import "./header.scss";
 @import "./hero.scss";
 @import "./media.scss";
 @import "./mobile-menu.scss";
+@import "./our_products.scss";
+@import "./sales.scss";
 @import "./vars.scss";
