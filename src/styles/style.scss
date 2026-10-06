@@ -1,6 +1,6 @@
-@import 'additinal/font';
-@import 'additinal/media';
-@import 'additinal/vars.scss';
+@use 'additinal/font';
+@use 'additinal/media';
+@use 'additinal/vars.scss' as color;
 
 
 
@@ -9,7 +9,7 @@ body {
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  color: $red3;
+  color: color.$red3;
 
 }
  
